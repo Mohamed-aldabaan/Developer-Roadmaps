@@ -1,43 +1,130 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Document</title>
-    <link rel="stylesheet" href="style.css">
-</head>
-<body>
-    <h1>hallo</h1>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
     <header>
-        <nav class="mnav ">
-          <div class="logo">
-              <a class="" href="#">WEBDEV <br> <span class="wegw">Wegweiser</span></a>
+      <nav class="mnav">
+        <div class="logo">
+          <a class="" href="#"
+            >WEBDEV <br />
+            <span class="wegw">Wegweiser</span></a
+          >
+        </div>
+        <div class="nav1">
+          <div class="">
+            <a class="" href="#">FRONTEND</a>
           </div>
-          <div class="nav1">  
-            <div class="">
-              <a class="" href="#">FRONTEND</a>
-            </div>
-            <div class="">
-              <a class="" href="#">BACKEND</a>
-            </div>
-            <div class="">
-              <a class="" href="#">FULL STACK</a>
-            </div>
+          <div class="">
+            <a class="" href="#">BACKEND</a>
           </div>
-        </nav>
-      </header>
-      <main>
-          <div class="text">
-          <h1 >DER WEG ZUM WEBENTWICKLER</h1>
+          <div class="">
+            <a class="" href="#">FULL STACK</a>
+          </div>
+        </div>
+      </nav>
+    </header>
+    <main>
+      <!-- <div class="text">
+        <h1>DER WEG ZUM WEBENTWICKLER</h1>
+      </div> -->
+
+      <button><a href="#Einführung">GET START</a></button>
+    </main>
+    <section id="Einführung">
+      <div class="ma-cards">
+        <div class="ma-cards-items">
+          <h2>&lt INTERNET &gt</h2>
+          <p>
+            Das Internet ist ein global verbundenes Netzwerksystem, das die
+            weltweite Kommunikation und den Zugriff auf Datenressourcen über
+            eine große Anzahl öffentlicher, privater, akademischer,
+            geschäftlicher und staatlicher Netzwerke ermöglicht.
+          </p>
+          <details>
+            <summary >MEHR ERFAHREN</summary>
+            <ul class="internetliste">
+              <li>
+                <a href="https://www.youtube.com/watch?v=x3c1ih2NJEg" target="_blank"
+                  >Wie funktioniert das Internet?</a
+                >
+              </li>
+              <li>
+                <a
+                  href="https://developer.mozilla.org/en-US/docs/Learn/Common_questions/Web_mechanics/What_is_a_domain_name" target="_blank"
+                  >Was ist ein Domainname?</a
+                >
+              </li>
+              <li>
+                <a
+                  href="https://developer.mozilla.org/en-US/docs/Learn/Common_questions/Web_mechanics" target="_blank"
+                  >mehr lernen: Web mechanics- MDN</a
+                >
+              </li>
+            </ul>
+          </details>
+        </div>
+        <div class="ma-cards-items">
+          <h2><a href="frontend.html">&lt FRONTEND &gt</a> </h2>
+          <p>
+            Frontend-Entwickler sind für die Gestaltung und Programmierung der
+            Benutzeroberfläche einer Website zuständig. Sie sind für die
+            visuelle Darstellung einer Website verantwortlich und sorgen dafür,
+            dass die Website auf allen Geräten und Browsern einwandfrei
+            funktioniert.
+          </p>
+        </div>
+        <div class="ma-cards-items">
+          <h2>&lt BACKEND &gt</h2>
+          <p>
+            Backend-Entwickler sind für die Entwicklung und Wartung der
+            Server-Seite einer Website verantwortlich. Sie sind für die
+            Programmierung der Logik und Datenbanken einer Website zuständig.
+            Sie könnten mit Sprachen wie Java, Python, Ruby, Node.js arbeiten
+            und Frameworks wie Django, Flask, Express verwenden.
+          </p>
+        </div>
+        <div class="ma-cards-items">
+          <h2>&lt FULL STACK &gt</h2>
+          <p>
+            Durch ihre breiten Fähigkeiten können Full-Stack-Entwickler in der
+            Lage sein, den gesamten Entwicklungszyklus einer Softwareanwendung
+            zu bewältigen, von der Konzeption über die Entwicklung bis hin zur
+            Bereitstellung und Wartung. Es ist wichtig zu beachten, dass der
+            Begriff "Full-Stack" nicht bedeutet, dass diese Entwickler in allen
+            Technologien und Bereichen absoluter Experten sind, sondern dass sie
+            in der Lage sind, effektiv in verschiedenen Teilen des
+            Softwareentwicklungsprozesses zu arbeiten.
+          </p>
+        </div>
+        <div class="ma-cards-items">
+          <h2 class="fontsize">&lt PROGRAMMIERSPRACHE &gt</h2>
+          <h2>&lt JAVASCRIPT &gt</h2>
+          <p></p>
+          <p>
+            JavaScript ist eine Programmiersprache, die neben HTML und CSS eine
+            der Kerntechnologien des World Wide Web darstellt. Damit können wir
+            Seiten Interaktivität hinzufügen, z. Möglicherweise haben Sie auf
+            verschiedenen Websites Schieberegler, Benachrichtigungen,
+            Klickinteraktionen, Popups usw. gesehen – all das ist mit JavaScript
+            erstellt. Neben der Verwendung im Browser wird es auch in anderen
+            Nicht-Browser-Umgebungen verwendet, z. B. Node.js zum Schreiben von
+            serverseitigem Code in JavaScript, Electron zum Schreiben von
+            Desktop-Anwendungen, React Native für mobile Anwendungen usw.
+          </p>
+        </div>
       </div>
-  
-      <button> <a href="http://www.google.com">GET START</a></button>
-      </main>
-  
-      <footer>
-          <a href="#" class="">HOME</a>
-          <a href="#" class="btn">CONTACT</a>
-          <a href="#" class="btn">ABOUT</a>
-      </footer>
-</body>
+    </section>
+
+    <footer>
+      <span> &copy 2024 by Webdev Wegweiser</span>
+      <a href="#" class="">HOME</a>
+      <a href="#" class="btn">CONTACT</a>
+      <a href="#" class="btn">ABOUT</a>
+    </footer>
+  </body>
 </html>
