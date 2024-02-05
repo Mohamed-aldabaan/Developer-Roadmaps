@@ -3,28 +3,26 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <script
+      src="https://kit.fontawesome.com/ca67fba99c.js"
+      crossorigin="anonymous"
+    ></script>
     <title>Document</title>
     <link rel="stylesheet" href="style.css" />
   </head>
   <body>
-    <header>
-      <nav class="mnav">
+    <header id="home">
+      <nav>
         <div class="logo">
           <a class="" href="#"
-            >WEBDEV <br />
-            <span class="wegw">Wegweiser</span></a
-          >
+            >WEBDEV <br /><span class="wegw">Wegweiser</span>
+          </a>
         </div>
-        <div class="nav1">
-          <div class="">
-            <a class="" href="#">FRONTEND</a>
-          </div>
-          <div class="">
-            <a class="" href="#">BACKEND</a>
-          </div>
-          <div class="">
-            <a class="" href="#">FULL STACK</a>
-          </div>
+        <i class="fa-solid fa-bars fa-xl"></i>
+        <div class="ma-nav">
+          <a class="" href="#">FRONTEND</a>
+          <a class="" href="#">BACKEND</a>
+          <a class="" href="#">FULL STACK</a>
         </div>
       </nav>
     </header>
@@ -33,9 +31,10 @@
         <h1>DER WEG ZUM WEBENTWICKLER</h1>
       </div> -->
 
-      <button><a href="#Einführung">GET START</a></button>
+      <button><a href="#einführung">GET START</a></button>
     </main>
-    <section id="Einführung">
+    <section class="einführung" id="einführung">
+      <h1>EINFÜHRUNG</h1>
       <div class="ma-cards">
         <div class="ma-cards-items">
           <h2>&lt INTERNET &gt</h2>
@@ -46,22 +45,26 @@
             geschäftlicher und staatlicher Netzwerke ermöglicht.
           </p>
           <details>
-            <summary >MEHR ERFAHREN</summary>
+            <summary>mehr erfahren</summary>
             <ul class="internetliste">
               <li>
-                <a href="https://www.youtube.com/watch?v=x3c1ih2NJEg" target="_blank"
+                <a
+                  href="https://www.youtube.com/watch?v=x3c1ih2NJEg"
+                  target="_blank"
                   >Wie funktioniert das Internet?</a
                 >
               </li>
               <li>
                 <a
-                  href="https://developer.mozilla.org/en-US/docs/Learn/Common_questions/Web_mechanics/What_is_a_domain_name" target="_blank"
+                  href="https://developer.mozilla.org/en-US/docs/Learn/Common_questions/Web_mechanics/What_is_a_domain_name"
+                  target="_blank"
                   >Was ist ein Domainname?</a
                 >
               </li>
               <li>
                 <a
-                  href="https://developer.mozilla.org/en-US/docs/Learn/Common_questions/Web_mechanics" target="_blank"
+                  href="https://developer.mozilla.org/en-US/docs/Learn/Common_questions/Web_mechanics"
+                  target="_blank"
                   >mehr lernen: Web mechanics- MDN</a
                 >
               </li>
@@ -69,7 +72,7 @@
           </details>
         </div>
         <div class="ma-cards-items">
-          <h2><a href="frontend.html">&lt FRONTEND &gt</a> </h2>
+          <h2><a href="#frontend-kurs">&lt FRONTEND &gt</a></h2>
           <p>
             Frontend-Entwickler sind für die Gestaltung und Programmierung der
             Benutzeroberfläche einer Website zuständig. Sie sind für die
@@ -79,7 +82,7 @@
           </p>
         </div>
         <div class="ma-cards-items">
-          <h2>&lt BACKEND &gt</h2>
+          <h2><a href="#backend-kurs">&lt BACKEND &gt</a></h2>
           <p>
             Backend-Entwickler sind für die Entwicklung und Wartung der
             Server-Seite einer Website verantwortlich. Sie sind für die
@@ -89,7 +92,7 @@
           </p>
         </div>
         <div class="ma-cards-items">
-          <h2>&lt FULL STACK &gt</h2>
+          <h2><a href="#fullstack-kurs">&lt FULL STACK &gt</a></h2>
           <p>
             Durch ihre breiten Fähigkeiten können Full-Stack-Entwickler in der
             Lage sein, den gesamten Entwicklungszyklus einer Softwareanwendung
@@ -102,19 +105,239 @@
           </p>
         </div>
         <div class="ma-cards-items">
-          <h2 class="fontsize">&lt PROGRAMMIERSPRACHE &gt</h2>
           <h2>&lt JAVASCRIPT &gt</h2>
-          <p></p>
           <p>
             JavaScript ist eine Programmiersprache, die neben HTML und CSS eine
             der Kerntechnologien des World Wide Web darstellt. Damit können wir
-            Seiten Interaktivität hinzufügen, z. Möglicherweise haben Sie auf
-            verschiedenen Websites Schieberegler, Benachrichtigungen,
-            Klickinteraktionen, Popups usw. gesehen – all das ist mit JavaScript
-            erstellt. Neben der Verwendung im Browser wird es auch in anderen
+            Seiten Interaktivität hinzufügen. Benachrichtigungen,
+            Klickinteraktionen, Popups usw. all das ist mit JavaScript erstellt.
+            Neben der Verwendung im Browser wird es auch in anderen
             Nicht-Browser-Umgebungen verwendet, z. B. Node.js zum Schreiben von
             serverseitigem Code in JavaScript, Electron zum Schreiben von
             Desktop-Anwendungen, React Native für mobile Anwendungen usw.
+          </p>
+        </div>
+      </div>
+    </section>
+    <div class="ma-bottom-nav">
+      Go to
+      <div class="ma-menu-button">
+        <ul>
+          <li><a href="#home">HOME</a></li>
+          <li><a href="#frontend-kurs">FRONTEND</a></li>
+          <li><a href="#backend-kurs">BACKEND</a></li>
+          <li><a href="#fullstack-kurs">FULL STACK</a></li>
+        </ul>
+      </div>
+    </div>
+    <section class="frontend-course">
+      <div class="frontendkurs" id="frontend-kurs"><h2><a href="frontend.html" target="_blank"> Frontend-Kurs</a></h2></div>
+      <div class="frontend-course-items">
+        <div class="course-item">
+          <h3>HTML</h3>
+          <p>
+            HTML ist die Strukturierungssprache des Webs. Es wird verwendet, um
+            die Struktur einer Website zu erstellen und zu organisieren. Es
+            besteht aus einer Reihe von Elementen, die verwendet werden, um
+            verschiedene Arten von Inhalten zu erstellen. HTML-Elemente sagen
+            dem Browser, wie er den Inhalt anzeigen soll. Elemente sind von Tags
+            umgeben, die den Inhalt beschreiben und von Winkeln in spitzen
+            Klammern begrenzt sind.
+          </p>
+        </div>
+        <div class="course-item">
+          <h3>CSS</h3>
+          <p>
+            CSS ist die Gestaltungssprache des Webs. Es wird verwendet, um die
+            Präsentation einer Website zu gestalten. Es kann verwendet werden,
+            um die Farbe, Schriftart, Größe und Position von Inhalten zu ändern.
+            Es kann auch verwendet werden, um die Reaktion einer Website auf
+            verschiedene Bildschirmgrößen zu steuern.
+          </p>
+        </div>
+        <div class="course-item">
+          <h3>JavaScript</h3>
+          <p>
+            JavaScript ist die Verhaltenssprache des Webs. Es wird verwendet, um
+            die Interaktivität einer Website zu steuern. Es kann verwendet
+            werden, um Benutzerinteraktionen zu steuern, wie z. B. Klicks,
+            Schieberegler, Benachrichtigungen, Popups usw.
+          </p>
+        </div>
+        <div class="course-item">
+          <h3>CSS-Framework</h3>
+          <p>
+            Ein CSS-Framework ist eine Sammlung von CSS-Dateien, die
+            vorgefertigte Designvorlagen enthalten. Sie können verwendet werden,
+            um das Design einer Website zu erstellen, ohne von Grund auf neu
+            beginnen zu müssen. Sie können verwendet werden, um das Design einer
+            Website zu erstellen, ohne von Grund auf neu beginnen zu müssen.
+          </p>
+          <details>
+            <summary>mehr erfahren</summary>
+            <ul class="internetliste">
+              <li>
+                <a href="https://getbootstrap.com/" target="_blank"
+                  >Bootstrap</a
+                >
+              </li>
+              <li>
+                <a href="https://tailwindcss.com/" target="_blank"
+                  >Tailwind CSS</a
+                >
+              </li>
+              <li>
+                <a href="https://bulma.io/" target="_blank">Bulma</a>
+              </li>
+            </ul>
+          </details>
+        </div>
+        <div class="course-item">
+          <h3>npm und VCS Hosting</h3>
+          <p>
+            um npm (node package manager) zu verwenden, soll Node.js aufm system
+            installiert weden.
+            <a href="https://www.youtube.com/watch?v=2V1UUhBJ62Y" target="_blank"
+              >npm Tutorial,</a
+            ><a
+              href="https://www.freecodecamp.org/news/what-is-npm-a-node-package-manager-tutorial-for-beginners/" target="_blank"
+            >
+              npm Tutorial-01</a
+            ><br />
+            VCS (Version Control System) Hosting ist ein Dienst, der dazu dient,
+            Änderungen in Dateien und Verzeichnissen über die Zeit zu verfolgen,
+            zu verwalten und zu dokumentieren. Es ermöglicht mehreren Personen,
+            an einem Projekt zu arbeiten, ohne dabei die Übersicht über die
+            Änderungen zu verlieren. Z.B. GitHub, GitLab, Bitbucket.
+            <a
+              href="https://developer.mozilla.org/en-US/docs/Learn/Tools_and_testing/GitHub" target="_blank"
+              >Git und GitHub</a
+            >
+          </p>
+        </div>
+        <div class="course-item">
+          <h3>SCSS und Sass</h3>
+          <p>
+            Sass ist eine Erweiterung von CSS, die es Entwicklern ermöglicht,
+            CSS mit Funktionen zu schreiben. Es ist eine
+            CSS-Präprozessor-Sprache und wird verwendet, um die Wartung und
+            Organisation von CSS-Code zu vereinfachen. Es ermöglicht
+            Entwicklern, Variablen, Funktionen und Schleifen in CSS zu
+            verwenden. <a href="https://sass-lang.com/" target="_blank">Sass</a>
+            <a href="https://www.youtube.com/watch?v=_a5j7KoflTs" target="_blank"
+              >Sass Tutorial for Beginners</a
+            >
+          </p>
+        </div>
+      </div>
+    </section>
+    <section class="backend-course" id="backend-kurs">
+      <div class="backendkurs"><h2>Backend-Kurs</h2></div>
+      <div class="backend-course-items">
+        <div class="course-item">
+          <h3>JavaScript</h3>
+          <p>
+            JavaScript ist die Verhaltenssprache des Webs. Es wird verwendet, um
+            die Interaktivität einer Website zu steuern. Es kann verwendet
+            werden, um Benutzerinteraktionen zu steuern, wie z. B. Klicks,
+            Schieberegler, Benachrichtigungen, Popups usw. <a href="https://javascript.info/" target="_blank">The Modern JavaScript Tutorial</a> <a href="https://eloquentjavascript.net/" target="_blank">Eloquent Javascript-Book</a> <a href="https://www.codecademy.com/learn/introduction-to-javascript" target="_blank">Learn JavaScript</a>
+          </p>
+        </div>
+        <div class="course-item">
+          <h3>Java</h3>
+          <p>
+            Java ist eine objektorientierte Programmiersprache, die von Sun
+            Microsystems entwickelt wurde. Es ist eine der am häufigsten
+            verwendeten Programmiersprachen der Welt. Es wird verwendet, um
+            serverseitigen Code zu schreiben, der auf dem Server ausgeführt
+            wird. Es wird auch verwendet, um Desktop-Anwendungen zu erstellen.
+          </p>
+        </div>
+        <div class="course-item">
+          <h3>Python</h3>
+          <p>
+            Python ist eine objektorientierte Programmiersprache, die von Guido
+            van Rossum entwickelt wurde. Es ist eine der am häufigsten
+            verwendeten Programmiersprachen der Welt. Es wird verwendet, um
+            serverseitigen Code zu schreiben, der auf dem Server ausgeführt
+            wird. Es wird auch verwendet, um Desktop-Anwendungen zu erstellen.
+          </p>
+        </div>
+        <div class="course-item">
+          <h3>PHP</h3>
+          <p>
+            PHP ist eine serverseitige Skriptsprache, die hauptsächlich für die
+            Webentwicklung verwendet wird. Es wird verwendet, um serverseitigen
+            Code zu schreiben, der auf dem Server ausgeführt wird. Es wird auch
+            verwendet, um Desktop-Anwendungen zu erstellen. <a href="https://www.php.net/" target="_blank">php seite.</a>
+        </div>
+        <div class="course-item">
+          <h3>Ruby</h3>
+          <p>
+            Ruby ist eine objektorientierte Programmiersprache, die von Yukihiro
+            Matsumoto entwickelt wurde. Es ist eine der am häufigsten
+            verwendeten Programmiersprachen der Welt. Es wird verwendet, um
+            serverseitigen Code zu schreiben, der auf dem Server ausgeführt
+            wird. Es wird auch verwendet, um Desktop-Anwendungen zu erstellen.
+          </p>
+        </div>
+        <div class="course-item">
+          <h3>Node.js</h3>
+          <p>
+            Node.js ist eine serverseitige Plattform, die auf Google Chrome's
+            JavaScript-Engine basiert. Es wird verwendet, um serverseitigen Code
+            in JavaScript zu schreiben. Es ist eine Open-Source-Plattform, die
+            es Entwicklern ermöglicht, serverseitige und netzwerkanwendungen zu
+            erstellen. Es ist auch eine serverseit
+          </p>
+        </div>
+      </div>
+    </section>
+    <section class="fullstack-course" id="fullstack-kurs">
+      <div class="fullstackkurs"><h2>Fullstack-Kurs</h2></div>
+      <div class="fullstack-course-items">
+        <div class="course-item">
+          <h3>MongoDB</h3>
+          <p>
+            MongoDB ist eine NoSQL-Datenbank mit dokumentenorientiertem Ansatz,
+            entwickelt, um Skalierbarkeit und Flexibilität zu verbessern. Als
+            Open-Source-Plattform ermöglicht sie Entwicklern die Erstellung von
+            serverseitigen und netzwerkbasierten Anwendungen. MongoDB
+            unterstützt das Indizieren von Dokumenten und gewährleistet die
+            Skalierbarkeit für große Datenmengen. Durch ihre NoSQL-Architektur
+            vereinfacht sie das Speichern von Anwendungsdaten. MongoDB ist
+            besonders mobil und wird von Webentwicklern genutzt, um Datenbanken,
+            Schemata, Tabellen und mehr zu erstellen.
+          </p>
+        </div>
+        <div class="course-item">
+          <h3>Express</h3>
+          <p>
+            Express ist ein schnelles, offenes und minimales Webframework für
+            Node.js. Es ist eine serverseitige Plattform, die auf JavaScript
+            basiert. Es wird verwendet, um serverseitigen Code in JavaScript zu
+            schreiben. Es ist eine Open-Source-Plattform, die es Entwicklern
+            ermöglicht, serverseitige und netzwerkanwendungen zu erstellen.
+          </p>
+        </div>
+        <div class="course-item">
+          <h3>React.js</h3>
+          <p>
+            React.js ist eine JavaScript-Bibliothek, die für den Aufbau
+            benutzerfreundlicher Oberflächen entwickelt wurde. Es ist eine
+            Open-Source-Plattform, die es Entwicklern ermöglicht, serverseitige
+            und netzwerkanwendungen zu erstellen.
+          </p>
+        </div>
+        <div class="course-item">
+          <h3>Node.js</h3>
+          <p>
+            Node.js ist eine serverseitige Plattform, die auf Google Chrome's
+            JavaScript-Engine basiert. Es wird verwendet, um serverseitigen Code
+            in JavaScript zu schreiben. Es ist eine Open-Source-Plattform, die
+            es Entwicklern ermöglicht, serverseitige und netzwerkanwendungen zu
+            erstellen. Es ist auch eine serverseitige Plattform, die auf
+            JavaScript basiert.
           </p>
         </div>
       </div>
