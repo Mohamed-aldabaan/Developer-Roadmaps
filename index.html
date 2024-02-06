@@ -7,7 +7,7 @@
       src="https://kit.fontawesome.com/ca67fba99c.js"
       crossorigin="anonymous"
     ></script>
-    <title>Document</title>
+    <title>Web development wegweiser</title>
     <link rel="stylesheet" href="style.css" />
   </head>
   <body>
@@ -15,21 +15,21 @@
       <nav>
         <div class="logo">
           <a class="" href="#"
-            >WEBDEV <br /><span class="wegw">Wegweiser</span>
+            >WEBDEV <br /><span class="ma-logo">Wegweiser</span>
           </a>
         </div>
         <i class="fa-solid fa-bars fa-xl"></i>
         <div class="ma-nav">
-          <a class="" href="#">FRONTEND</a>
-          <a class="" href="#">BACKEND</a>
-          <a class="" href="#">FULL STACK</a>
+          <a class="" href="#frontend-kurs">FRONTEND</a>
+          <a class="" href="#backend-kurs">BACKEND</a>
+          <a class="" href="#fullstack-kurs">FULL STACK</a>
         </div>
       </nav>
     </header>
     <main>
-      <!-- <div class="text">
+      <div class="text">
         <h1>DER WEG ZUM WEBENTWICKLER</h1>
-      </div> -->
+      </div>
 
       <button><a href="#einführung">GET START</a></button>
     </main>
@@ -124,6 +124,7 @@
       <div class="ma-menu-button">
         <ul>
           <li><a href="#home">HOME</a></li>
+          <li><a href="#einführung">Einführung</a></li>
           <li><a href="#frontend-kurs">FRONTEND</a></li>
           <li><a href="#backend-kurs">BACKEND</a></li>
           <li><a href="#fullstack-kurs">FULL STACK</a></li>
@@ -131,7 +132,9 @@
       </div>
     </div>
     <section class="frontend-course">
-      <div class="frontendkurs" id="frontend-kurs"><h2><a href="frontend.html" target="_blank"> Frontend-Kurs</a></h2></div>
+      <div class="frontendkurs" id="frontend-kurs">
+        <h2><a href="frontend.html" target="_blank"> Frontend-Kurs</a></h2>
+      </div>
       <div class="frontend-course-items">
         <div class="course-item">
           <h3>HTML</h3>
@@ -197,10 +200,13 @@
           <p>
             um npm (node package manager) zu verwenden, soll Node.js aufm system
             installiert weden.
-            <a href="https://www.youtube.com/watch?v=2V1UUhBJ62Y" target="_blank"
+            <a
+              href="https://www.youtube.com/watch?v=2V1UUhBJ62Y"
+              target="_blank"
               >npm Tutorial,</a
             ><a
-              href="https://www.freecodecamp.org/news/what-is-npm-a-node-package-manager-tutorial-for-beginners/" target="_blank"
+              href="https://www.freecodecamp.org/news/what-is-npm-a-node-package-manager-tutorial-for-beginners/"
+              target="_blank"
             >
               npm Tutorial-01</a
             ><br />
@@ -210,7 +216,8 @@
             an einem Projekt zu arbeiten, ohne dabei die Übersicht über die
             Änderungen zu verlieren. Z.B. GitHub, GitLab, Bitbucket.
             <a
-              href="https://developer.mozilla.org/en-US/docs/Learn/Tools_and_testing/GitHub" target="_blank"
+              href="https://developer.mozilla.org/en-US/docs/Learn/Tools_and_testing/GitHub"
+              target="_blank"
               >Git und GitHub</a
             >
           </p>
@@ -224,7 +231,9 @@
             Organisation von CSS-Code zu vereinfachen. Es ermöglicht
             Entwicklern, Variablen, Funktionen und Schleifen in CSS zu
             verwenden. <a href="https://sass-lang.com/" target="_blank">Sass</a>
-            <a href="https://www.youtube.com/watch?v=_a5j7KoflTs" target="_blank"
+            <a
+              href="https://www.youtube.com/watch?v=_a5j7KoflTs"
+              target="_blank"
               >Sass Tutorial for Beginners</a
             >
           </p>
@@ -240,7 +249,18 @@
             JavaScript ist die Verhaltenssprache des Webs. Es wird verwendet, um
             die Interaktivität einer Website zu steuern. Es kann verwendet
             werden, um Benutzerinteraktionen zu steuern, wie z. B. Klicks,
-            Schieberegler, Benachrichtigungen, Popups usw. <a href="https://javascript.info/" target="_blank">The Modern JavaScript Tutorial</a> <a href="https://eloquentjavascript.net/" target="_blank">Eloquent Javascript-Book</a> <a href="https://www.codecademy.com/learn/introduction-to-javascript" target="_blank">Learn JavaScript</a>
+            Schieberegler, Benachrichtigungen, Popups usw.
+            <a href="https://javascript.info/" target="_blank"
+              >The Modern JavaScript Tutorial</a
+            >
+            <a href="https://eloquentjavascript.net/" target="_blank"
+              >Eloquent Javascript-Book</a
+            >
+            <a
+              href="https://www.codecademy.com/learn/introduction-to-javascript"
+              target="_blank"
+              >Learn JavaScript</a
+            >
           </p>
         </div>
         <div class="course-item">
@@ -269,8 +289,11 @@
             PHP ist eine serverseitige Skriptsprache, die hauptsächlich für die
             Webentwicklung verwendet wird. Es wird verwendet, um serverseitigen
             Code zu schreiben, der auf dem Server ausgeführt wird. Es wird auch
-            verwendet, um Desktop-Anwendungen zu erstellen. <a href="https://www.php.net/" target="_blank">php seite.</a>
+            verwendet, um Desktop-Anwendungen zu erstellen.
+            <a href="https://www.php.net/" target="_blank">php seite.</a>
+          </p>
         </div>
+
         <div class="course-item">
           <h3>Ruby</h3>
           <p>
@@ -345,9 +368,11 @@
 
     <footer>
       <span> &copy 2024 by Webdev Wegweiser</span>
-      <a href="#" class="">HOME</a>
-      <a href="#" class="btn">CONTACT</a>
-      <a href="#" class="btn">ABOUT</a>
+      <div>
+        <a href="#" class="">HOME</a>
+        <a href="#" class="">CONTACT</a>
+        <a href="#" class="">ABOUT</a>
+      </div>
     </footer>
   </body>
 </html>
