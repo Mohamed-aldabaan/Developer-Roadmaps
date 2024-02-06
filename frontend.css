@@ -149,11 +149,11 @@ main div img{
     border: 1px solid #000000;
 }
 .ma-grid-item-1{
-    margin-right: -115px;
+    margin-right: -120px;
     
 }
 .ma-grid-item-2{
-    margin-left: -115px;
+    margin-left: -120px;
 }
 .ma-grid{
     display: grid;
